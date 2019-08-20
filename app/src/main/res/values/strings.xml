@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Agenda20192</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="estados">
+        <item>Selecione o Estado...</item>
+        <item>Paraná</item>
+        <item>Rio Grande do Sul</item>
+        <item>Santa Catarina</item>
+    </string-array>
+
+
+</resources>
