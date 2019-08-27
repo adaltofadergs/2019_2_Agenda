@@ -34,34 +34,40 @@
 
             </LinearLayout>
 
+
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#aaa"
-                android:hint="Nome:"
+                style="@style/campos"
+                android:id="@+id/etNome"
+                android:hint="@string/txtNome"
                 android:layout_marginBottom="10dp"/>
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#aaa"
-                android:hint="Telefone:"/>
+                style="@style/campos"
+                android:id="@+id/etTelefone"
+                android:hint="@string/txtTelefone"/>
 
             <Spinner
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/spEstado"
                 android:entries="@array/estados">
 
             </Spinner>
             <Spinner
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:id="@+id/spCidade">
             </Spinner>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Sexo:"/>
+                style="@style/labels"
+                android:text="@string/txtSexo"/>
 
             <RadioGroup
                 android:layout_width="match_parent"
@@ -70,23 +76,33 @@
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="feminino"/>
+                    style="@style/campos"
+                    android:id="@+id/rbFeminino"
+                    android:text="@string/txtFeminino"/>
+
                 <RadioButton
+                    style="@style/campos"
+                    android:id="@+id/rbMasculino"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="masculino"/>
+                    android:text="@string/txtMasculino"/>
 
             </RadioGroup>
 
             <CheckBox
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="casado"/>
+                android:text="@string/txtCasado"
+                android:id="@+id/cbCasado"
+                style="@style/campos"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="salvar"/>
+                android:layout_gravity="center"
+                android:id="@+id/btnSalvar"
+                style="@style/botoes"
+                android:text="@string/txtSalvar"/>
 
 
         </LinearLayout>

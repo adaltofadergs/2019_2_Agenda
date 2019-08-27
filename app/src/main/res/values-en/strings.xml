@@ -3,14 +3,14 @@
     <string name="action_settings">Settings</string>
 
     <string-array name="estados">
-        <item>Selecione o Estado...</item>
+        <item>Select a State...</item>
         <item>Paraná</item>
         <item>Rio Grande do Sul</item>
         <item>Santa Catarina</item>
     </string-array>
 
     <string-array name="rs">
-        <item>Selecione a cidade...</item>
+        <item>Select a city...</item>
         <item>Alvorada</item>
         <item>Capão da Canoa</item>
         <item>Porto Alegre</item>
@@ -23,13 +23,13 @@
         <item>Sombrio</item>
     </string-array>
 
-    <string name="txtNome">Nome: </string>
-    <string name="txtTelefone">Telefone: </string>
-    <string name="txtFeminino">Feminino</string>
-    <string name="txtMasculino">Masculino</string>
-    <string name="txtCasado">Casado</string>
-    <string name="txtSalvar">SALVAR</string>
-    <string name="txtSexo">Sexo:</string>
+    <string name="txtNome">Name: </string>
+    <string name="txtTelefone">Phone: </string>
+    <string name="txtFeminino">Female</string>
+    <string name="txtMasculino">Male</string>
+    <string name="txtCasado">Married</string>
+    <string name="txtSalvar">SAVE</string>
+    <string name="txtSexo">Gender:</string>
 
 
 
